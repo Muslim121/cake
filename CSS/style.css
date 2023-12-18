@@ -1,0 +1,175 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 65%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+.title {
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  color: rgb(53, 52, 52);
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  margin-right: 16px;
+}
+#home {
+  border-bottom: 1px solid rgb(53, 52, 52);
+}
+#cart-svg {
+  font-size: 25px;
+}
+/* main */
+.main {
+  margin: 30px 0;
+}
+.img-1 {
+  border-radius: 15px;
+  width: 50%;
+  max-height: 600px;
+  max-width: 950px;
+  min-width: 600px;
+  min-height: 200px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.title-img {
+  position: absolute;
+  top: 17px;
+  font-size: 37px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+.button {
+  position: absolute;
+  top: 80px;
+  font-size: 18px;
+  background: #fff;
+  font-family: "Rubik", sans-serif;
+  padding: 7px 12px;
+  border-radius: 6px;
+}
+.svg-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+#one {
+  color: rgb(64, 64, 64);
+}
+#two,
+#three {
+  color: rgb(139, 139, 139);
+}
+.svg-buttons i {
+  margin-right: 13px;
+  cursor: pointer;
+}
+.svg-buttons i:hover {
+  scale: 1.2;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-menu {
+  font-weight: 800;
+  font-size: 25px;
+}
+.desc-menu {
+  color: rgb(53, 52, 52);
+  font-size: 16px;
+}
+.title-card {
+  color: rgb(53, 52, 52);
+  font-weight: 800;
+  margin: 15px 0px 5px;
+}
+.desc-card {
+  color: rgb(53, 52, 52);
+  margin-bottom: 10px;
+}
+.menu {
+  margin: 50px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.card img {
+  width: 250px;
+  border-radius: 7px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 810px) {
+  .cards {
+    justify-content: center;
+    gap: 20px;
+  }
+  .header {
+    justify-content: center;
+    width: 90%;
+  }
+  .img-1 {
+    max-height: 400px;
+  }
+  .links a {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 35px;
+  }
+  .title-img {
+    font-size: 45px;
+  }
+  .button {
+    font-size: 30px;
+  }
+  .svg-buttons i {
+    font-size: 25px;
+  }
+  .card img {
+    width: 350px;
+  }
+  .title-card {
+    font-size: 30px;
+  }
+  .desc-card {
+    font-size: 30px;
+  }
+  .title-menu {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  .desc-menu {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+}
